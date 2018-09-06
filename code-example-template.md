@@ -16,7 +16,7 @@
 
 ## Date (last updated)
 
-## CODE SNIPPET
+## Component code
 
 ```liquid
 <div class="comment__content rte">
