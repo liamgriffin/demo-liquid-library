@@ -1,0 +1,18 @@
+#Title
+
+##Description
+	If useful, include links to objects.properties in docs in the description (this snippet uses
+	product.collections and product.images)
+
+##Instructions:
+>steps/instructions
+ dependencies
+ variants
+ warnings
+ exceptions
+
+##Tags (fake labels = link to the filtered search)
+
+##Date (last updated)
+
+##CODE SNIPPET 
