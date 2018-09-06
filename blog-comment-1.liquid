@@ -1,0 +1,23 @@
+{% comment %}
+
+{
+  'title': 'Blog Comment',
+  'description': 'A Breadcrumb navigation or breadcrumbs, can reduce the number of actions a visitor needs to take in order to navigate to a higher-level page, and improve the discoverability of a website’s sections and pages. Like all navigations, this uses the [linklist] (https://help.shopify.com/en/themes/liquid/objects/linklist) object.',
+  'tags': 'blog, date-filter',
+  'last_updated': '2018-12-26',
+  'instructions': [
+    {
+      '1': 'Text here'
+    }
+]
+{% endcomment %}
+
+
+<div>
+  {{ comment.content }}
+</div>
+<div>
+  {% capture author %}<strong>{{ comment.author }}</strong>{% endcapture %}
+  {% capture date %}<strong><time datetime="{{ comment.created_at | date: '%Y-%m-%d' }}">{{ comment.created_at | date: format: 'month_day_year' }}</time></strong>{% endcapture %}
+  {{ 'blogs.article.comment_meta_html' | t: author: author, date: date }}
+</div>
