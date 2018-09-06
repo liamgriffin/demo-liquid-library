@@ -5,14 +5,15 @@
 	product.collections and product.images)
 
 ## Instructions:
->steps/instructions
- dependencies
- variants
- warnings
- exceptions
+ - steps/instructions
+ - dependencies
+ - variants
+ - warnings
+ - exceptions
 
-## Tags (fake labels = link to the filtered search)
+## Tags
+(fake labels = link to the filtered search)
 
 ## Date (last updated)
 
-## CODE SNIPPET 
+## CODE SNIPPET
